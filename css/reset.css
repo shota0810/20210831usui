@@ -1,0 +1,195 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/* メイン終了 */
+/* フッター開始 */
+/* 問い合わせセクション */
+.contact{
+	background: gainsboro;
+}
+.contact__tittle{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+.contact__text{
+	font-size: 16px;
+	padding: 20px 0 20px 0;
+	text-align: center;
+	line-height: 150%;
+}
+.contact__link{
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	width: 300px;
+	line-height: 240%;
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: bold;
+	background: crimson;
+	margin-top: 30px;
+}
+/* フッターメニューセクション */
+.footermenu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	background: black;
+	padding: 20px 50px;
+}
+.footermenu__copy{
+	font-size: 12px;
+	color: white;
+	text-align: center;
+}
+.footermenu__list ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footermenu__list ul li{
+	width: auto;
+	padding: 0 10px;
+	list-style: none;
+	border-left: 1px solid white;
+}
+.footermenu__list ul li:first-of-type{
+	border-left: none;
+}
+.footermenu__list ul li a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+}
+@media screen and (max-width:768px) {
+	.footermenu{
+		padding: 20px 200px 20px 90px;
+	}
+	.footermenu__list ul{
+		display: block;
+		text-align: center;
+	}
+	.footermenu__list ul li{
+		border: none;
+		padding: 6px 0;
+	}
+	.footermenu__list ul li{
+		text-align: center;
+	}
+}
+@media screen and (max-width:545px) {
+	.footermenu{
+		justify-content: center;
+		padding: 20px 0;
+	}
+	.footermenu__copy{
+		margin: 0 auto;
+		width: 100%;
+	}
+	.footermenu__list ul li{
+		margin: 0 auto;
+	}
+}
